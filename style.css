@@ -33,7 +33,7 @@ a:hover{
     border-radius: 10px;
     
 }
-.me{
+#me{
     display: flex;
     justify-content: space-around;
     padding: 50px;
@@ -50,23 +50,27 @@ a:hover{
     margin-top: 20px;
 }
 #mypic{
-    height: 500px;
+   height: 500px;
     width: 500px;
     padding:50px 0px;
     margin: 50px 15% ;
     display: flex;
     border-radius: 100%;
 }
-.home{
+#mypic:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#home{
     background-color: #00000067;
     font-size: 40px;
-    display: flex;
+    display: block;
     justify-content: space-around;
-    padding: 10px;
+    padding : 20px 100px;
     margin: 50px;
     border-radius: 2%;
 }
-.About{
+#About{
     background-color: #00000067;
     font-size: 40px;
     display: flex;
@@ -82,12 +86,12 @@ a:hover{
     margin: 0;
     border-radius: 2%;
 }
-.Work{
+#Work{
     background-color: #00000067;
     font-size: 40px;
-    display: flex;
+    display: block;
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px 100px;
     margin: 50px;
     border-radius: 2%;
 
@@ -103,7 +107,7 @@ a:hover{
 
 }
 
-.Contact{
+#Contact{
     background-color: #00000067;
     font-size: 40px;
     display: flex;
